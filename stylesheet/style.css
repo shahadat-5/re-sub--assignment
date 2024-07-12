@@ -1,0 +1,294 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: "Azeret Mono", monospace;
+}
+
+
+.body-bg {
+	background-color: #000000b2;
+}
+.max_width {
+	max-width: 1460px;
+	margin: auto;
+	background-color: white;
+}
+
+/* Nave section */
+
+.nave_flex {
+	padding: 35px 150px;
+	justify-content: space-between;
+	display: flex;
+	align-items: center;
+}
+.nave-resume {
+	font-size: 20px font-w;
+	font-size: 20px;
+	font-weight: bold;
+	color: #0D1321A3;
+	padding: 17px 24px;
+	display: block;
+	text-decoration: none;
+	background-color: #ffff;
+}
+.nave-name {
+	font-size: 28px;
+	font-weight: bolder;
+	color: #0D1321BA;
+	text-decoration: none;
+}
+
+/* Banner Section */
+
+.banner {
+    background-image: url(/imp/Hero-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 652px;
+}
+.banner-a {
+	text-decoration: none;
+}
+.banner_text {
+	text-align: center;
+	max-width: 79%;
+	margin: auto;
+	padding-top: 25px;
+}
+.banner_tittel {
+	font-size: 48px;
+	font-weight: bold;
+	color: #0D1321;
+}
+.paragraph {
+    font-size: 16px;
+	font-weight: 400;
+	color: #0D1321A1;
+}
+.banner_p {
+	padding: 35px 162px 65px 162px;
+}
+.button {
+	color: #fff;
+	background-color: #0D1321;
+	padding: 21px 24px;
+	border-radius: 8px;
+	font-size: 20px;
+	font-weight: 700;
+}
+
+/* body_section */
+
+/* Body-Tittle-Section */
+
+.More {
+	color: #0D1321BA;
+	text-decoration: none;
+}
+.body_tittle {
+	font-size: 32px;
+	font-weight: bolder;
+	color: #0D1321;
+    padding-bottom: 24px;
+}
+.body_p {
+	padding: 0px 63px;
+}
+.first_section {
+	text-align: center;
+	padding: 25px 0px 48px 0px;
+}
+
+/* Body-Container-Section */
+
+.maine-body-bg {
+	background-color: #ffff;
+	padding: 80px 150px;
+}
+.body_border {
+	border-radius: 16px;
+	background-color: #00000005;
+	padding: 80px 97px;
+}
+.flex {
+	display: flex;
+    justify-content: space-between;
+}
+.left {
+	width: 40%;
+}
+.secend_section {
+    background-color: #fff;
+    padding: 58px 48px;
+    border-radius: 16px;
+}
+.change {
+	font-size: 24px;
+	font-weight: bold;
+	color: #0D1321A6;
+}
+.learn-more {
+	padding: 12px 20px;
+	color: #0D1321BA;
+	font-size: 20px;
+	font-weight: bolder;
+	background-color: #ffff;
+}
+.coding{
+    padding: 16px 0px 32px 0px;
+}
+.third_section {
+	background-color: #0000;
+}
+.third-left {
+    width: 65%;
+}
+
+/* Video-Section */
+
+.video_section {
+	text-align: center;
+}
+.video-border {
+	padding: 32px;
+	border-radius: 16px;
+}
+.video_section {
+	text-align: center;
+	background-color: #00000012;
+	border-radius: 16px;
+}
+.inspiration {
+	padding: 130px 100px 48px 100px;
+}
+
+/* My Current Target */
+
+.flex-target {
+	display: flex;
+	justify-content: space-between;
+	gap: 25px;
+}
+.target-box {
+	background-color: #FF4C1E14;
+	padding: 40px;
+	border-radius: 16px;
+}
+.target-box-titel {
+	font-size: 24px;
+	font-weight: bolder;
+	color: #0D1321;
+	padding: 24px 0px 8px;
+}
+.paragraph-ter {
+	padding-bottom: 43px;
+}
+.target-a {
+	font-size: 16px;
+	font-weight: bold;
+	color: #0D1321;
+}
+.bg-tar2 {
+	background-color: #004CE80F;
+}
+.bg-tar3 {
+	background-color: #FFDF000F;
+}
+
+/* My Next Target */
+
+.next-target_box {
+	display: flex;
+	padding: 40px;
+	gap: 24px;
+	border: 1px solid #00000014;
+	border-radius: 16px;
+	align-items: center;
+}
+.next-target-h2 {
+	padding: 0px;
+}
+.paragraph.next-target-p {
+	padding: 15px 0px;
+}
+.m_y {
+	margin: 20px 0px;
+}
+
+
+
+
+
+/* Support Section */
+
+.support-text-box {
+	text-align: center;
+}
+.support-box {
+	background-image: url(/imp/handshake.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	padding: 48px 64px;
+	margin: 50px 0px 0px;
+	border-radius: 16px;
+	height: 20vh;
+	background-size: cover;
+}
+.support-h2 {
+	color: #fff;
+}
+.feetback-p {
+	color: #FFFFFFB2;
+}
+.submmit {
+	font-size: 20px;
+	font-weight: bold;
+	color: black;
+	padding: 17px 20px;
+	width: 120px;
+	border-radius: 8px;
+}
+.feetback-input {
+	font-size: 16px;
+	font-weight: 400;
+	color: #0D1321;
+	padding: 20px 19px;
+	border-radius: 8px;
+	width: 548px;
+	margin: 24px 16px 0px 0px;
+}
+
+/* Footer Section */
+
+.footer-flex {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #00000005;
+	padding: 32px 150px;
+}
+.footer-li {
+	display: inline;
+	margin-left: 15px;
+}
+.Commitment {
+	font-size: 20px;
+	font-weight: bold;
+	color: #0D1321AB;
+}
+.footer-a {
+	text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
